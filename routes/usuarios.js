@@ -5,7 +5,7 @@ const { usuariosController } = require('../controllers/usuarios')
 
 router.get('/', usuariosController.usuariosGet);
 
-router.put('/:identificador', usuariosController.usuariosPut);
+router.put('/', usuariosController.usuariosPut);
 
 router.post('/', usuariosController.usuariosPost);
 

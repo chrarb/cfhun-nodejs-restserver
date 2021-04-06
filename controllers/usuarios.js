@@ -17,8 +17,6 @@ const usuariosGet = (req = request, res = response) => {
   // const { mode = 15, c : currency  = 'MXN' } = req.query;
   // //currency es un alias para el parametro c
   // console.log(mode, currency);
-
-
 }
 
 
@@ -46,6 +44,7 @@ const usuariosPost = (req, res) => {
   res.json({msg: 'post API - controlador'});
 }
 
+
 /**
  * Maneja una petición PUT para los usuarios
  * @param {request} req el objeto request
@@ -56,7 +55,7 @@ const usuariosPut = (req, res) => {
   // const id = req.params.identificador;
   // res.json({msg: 'put API - controlador , ID = ' + id});
 
-  res.json({msg: 'put API - controlador , ID = '});
+  res.json({msg: 'put API - controlador'});
 
 }
 
@@ -69,6 +68,7 @@ const usuariosPut = (req, res) => {
 const usuariosDelete = (req, res) => {
   res.json({msg: 'delete API - controlador'});
 }
+
 
 /**
  * Maneja una petición PATCH para los usuarios
